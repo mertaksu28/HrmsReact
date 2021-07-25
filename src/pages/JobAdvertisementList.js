@@ -17,6 +17,7 @@ export default function JobAdvertisementList() {
             <Table celled>
                 <Table.Header>
                     <Table.Row>
+                        <th>İş ilanları</th>
                         <Table.HeaderCell>Açıklama</Table.HeaderCell>
                         <Table.HeaderCell>Minumum Maaş</Table.HeaderCell>
                         <Table.HeaderCell>Maximum Maaş</Table.HeaderCell>

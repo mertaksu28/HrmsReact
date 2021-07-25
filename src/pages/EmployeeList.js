@@ -18,6 +18,7 @@ export default function EmployeeList() {
             <Table celled>
                 <Table.Header>
                     <Table.Row>
+                        <th>Çalışanlar</th>
                         <Table.HeaderCell>Adı</Table.HeaderCell>
                         <Table.HeaderCell>Soyadı</Table.HeaderCell>
                         <Table.HeaderCell>Email Adresi</Table.HeaderCell>                      

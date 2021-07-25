@@ -8,19 +8,21 @@ export default function DashBoard() {
   return (
     <div>
       <Grid>
-          <GridRow>
-              <GridColumn width="4">
-                  <JobAdvertisementList />
-              </GridColumn>
-              <GridColumn width="8">
-                  <EmployeeList />
-              </GridColumn>
-              <GridColumn>
-                  <EmployerList />
-              </GridColumn>
+        <GridRow>
+          <GridColumn width="4">
+            <JobAdvertisementList />
+          </GridColumn>
         </GridRow>
-        
-        
+        <GridRow>
+          <GridColumn width="4">
+            <EmployeeList />
+          </GridColumn>
+        </GridRow>
+        <GridRow>
+          <GridColumn width="4">
+            <EmployerList />
+          </GridColumn>
+        </GridRow>
       </Grid>
     </div>
   );
